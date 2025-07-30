@@ -2,7 +2,11 @@
 
 A sophisticated text generation system trained on Sherlock Holmes stories using LSTM neural networks. This project provides both a training pipeline and a web interface for generating Sherlock Holmes-style text.
 
+---
+
 ## 🚀 Features
+
+---
 
 ### Core Features
 - **LSTM-based Text Generation**: Advanced neural network architecture for natural text generation
@@ -10,6 +14,8 @@ A sophisticated text generation system trained on Sherlock Holmes stories using 
 - **Web Interface**: Modern, responsive web UI built with Flask and Tailwind CSS
 - **Advanced Generation Controls**: Temperature and Top-K sampling for creative control
 - **Real-time Generation**: Instant text generation with loading states and error handling
+
+---
 
 ### Technical Features
 - **Modular Architecture**: Clean separation of concerns with dedicated modules
@@ -19,6 +25,8 @@ A sophisticated text generation system trained on Sherlock Holmes stories using 
 - **Validation Split**: Proper train/validation data separation
 - **Logging**: Comprehensive logging for debugging and monitoring
 - **Health Checks**: API endpoints for monitoring system status
+
+---
 
 ## 📁 Project Structure
 
@@ -40,11 +48,17 @@ sherlock-holmes-text-generator/
 └── training.log         # Training logs (generated)
 ```
 
+---
+
 ## 🛠️ Installation
+
+---
 
 ### Prerequisites
 - Python 3.8 or higher
 - CUDA-compatible GPU (optional, for faster training)
+
+---
 
 ### Setup
 
@@ -68,6 +82,8 @@ sherlock-holmes-text-generator/
 4. **Download training data**
    - Ensure `sherlock-holm.es_stories_plain-text_advs.txt` is in the project directory
    - This file contains the Sherlock Holmes stories used for training
+
+---
 
 ## 🎯 Usage
 
@@ -314,5 +330,6 @@ If you encounter any issues or have questions:
 
 ---
 
-**Happy generating! 🕵️‍♂️** #   N e x t - w o r d - P r e d i c t i o n  
+**Happy generating! 🕵️‍♂️** #   N e x t - w o r d - P r e d i c t i o n 
+ 
  
